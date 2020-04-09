@@ -1,0 +1,28 @@
+#right-side-id, #left-side-id {
+  padding: 15px;
+}
+
+#left-side-id:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+@media (max-width: 480px) {
+  #left-side-id:hover {
+    background-color: darkgreen;
+  }
+}
+.bubble-text {
+  text-align: center;
+  margin: auto;
+  font-size: 4vw;
+}
+
+.border-3 {
+  border-width: 3px !important;
+}
+.border-3 div ul {
+  list-style: none;
+}
+
+/*# sourceMappingURL=styles.css.map */

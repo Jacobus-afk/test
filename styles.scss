@@ -1,0 +1,50 @@
+%padding-cfg
+{
+    padding: 15px
+}
+
+$b-width: 3px !important;
+
+#left-side-id
+{
+    @extend %padding-cfg
+}
+
+#left-side-id:hover
+{
+    background-color: darkblue;
+    color: white;
+}
+
+@media (max-width: 480px)
+{
+    #left-side-id:hover
+    {
+        background-color: darkgreen;
+    }
+}
+
+.bubble-text
+{
+    text-align: center;
+    margin: auto;
+    font-size: 4vw;
+}
+
+.border-3
+{
+    border-width: $b-width;
+    div
+    {
+        ul
+        {
+            list-style: none;
+        }
+    }
+}
+
+#right-side-id
+{
+    @extend %padding-cfg
+}
+
